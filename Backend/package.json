@@ -4,5 +4,9 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "together-ai": "^0.13.0"
-  }
+  },
+  "scripts": {
+  "start": "node server.js",
+  "build": "echo 'No build step needed' "
+}
 }
