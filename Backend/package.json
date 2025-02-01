@@ -6,7 +6,6 @@
     "together-ai": "^0.13.0"
   },
   "scripts": {
-  "start": "node server.js",
-  "build": "echo 'No build step needed' "
-}
+  "start": "node server.js"
+  }
 }
