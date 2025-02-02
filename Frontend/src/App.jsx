@@ -17,7 +17,7 @@ const App = () => {
     setMessages((prev) => [...prev, { sender: "user", text: message }]);
 
     try {
-      const response = await axios.post("http://localhost:3000/api/chatbot", { message });
+      const response = await axios.post("https://chatbotapi-yudg.onrender.com/api/chatbot", { message });
       setMessages((prev) => [...prev, { sender: "bot", text: response.data.reply }]);
     } catch (err) {
       console.error("Erreur backend : ", err);
